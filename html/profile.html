@@ -9,8 +9,8 @@
 </head>
   <body>
 <header>
- <input type="image" src="" alt="My Profile Pic" oncontextmenu="return false" >
-  <h1> My Profile</h1>
+ <input type="image" src="media/IMG-20250406-WA0009.jpg" alt="My Profile Pic" oncontextmenu="return false" height="150px" width="300px" >
+  <h1 id="title"></h1>
 </header>
 
 <main> </main>
@@ -18,7 +18,8 @@
 
     <!--script-->
       <script>
-        alert('Welcome')
+        
+        document.getElementById('title').textContent= ' welcome ' + prompt ('Welcome, Please May you Input a name we can call you?') + "To My Profile"
           </script>
   </body>
 </html>
