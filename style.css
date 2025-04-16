@@ -4,3 +4,22 @@
   30% { opacity: 1; }
   40%, 90% { opacity: 0; }
 }
+#email:hover {
+  background-color: red;
+  color: white;
+  transform: scale(0.9);
+  cursor: pointer;
+}
+
+#whatsapp:hover {
+  background-color: green;
+  color: white;
+  transform: scale(0.9);
+  cursor: pointer;
+}
+#telegram:hover {
+  background-color: blue;
+  color: white;
+  transform: scale(0.9);
+  cursor: pointer;
+}
