@@ -4,6 +4,10 @@
   30% { opacity: 1; }
   40%, 90% { opacity: 0; }
 }
+button {
+  transition: transform 0.2s ease;
+}
+
 #email:hover {
   background-color: red;
   color: white;
