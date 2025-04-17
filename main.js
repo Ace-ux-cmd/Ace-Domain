@@ -1,4 +1,19 @@
-
+document.addEventListener('DOMContentLoaded', () => {
+  const box = document.getElementById('box');
+  const toggleBtn = document.getElementById('toggleBtn');
+  let isExpanded = false;
+  
+  toggleBtn.addEventListener('click', () => {
+    if (isExpanded) {
+      box.style.height = '10vh';
+      toggleBtn.textContent = 'Show More👇';
+    } else {
+      box.style.height = box.scrollHeight + 'px';
+      toggleBtn.textContent = 'Show Less👆';
+    }
+    isExpanded = !isExpanded;
+  });
+});
 
 const textBase = "New content coming soon";
   const element = document.getElementById("loading");
