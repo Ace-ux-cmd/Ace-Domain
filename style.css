@@ -1,3 +1,19 @@
+.container {
+  height: 10vh;
+  overflow: hidden;
+  transition: height 15s ease;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 10px 125px;
+  background-color: white;
+  color: blue;
+  border: 1px solid blue;
+  border-radius: 10px;
+  cursor: pointer;
+}
 @keyframes blink {
   0%, 100% { opacity: 0; }
   10% { opacity: 1; }
