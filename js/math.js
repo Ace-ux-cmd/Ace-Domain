@@ -47,4 +47,4 @@ const  expo= Number (document.getElementById('Value1').value)** Number(document.
   division.textContent= `${x} ÷ ${y} = ${divide}`;
   power.textContent= `${x} ^ ${y} = ${expo}`;
   remainder.textContent= `${x} % ${y} = Remainder ${remain}`;
-};￼Enter
+};
