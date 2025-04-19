@@ -1,6 +1,7 @@
  const name = prompt('Enter Username to proceed');
 const greet= document.getElementById('page');
 if (Boolean(name) === false){
+ alert ('Enter Name To Continue')
   window.close()
 };
 
