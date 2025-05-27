@@ -1,5 +1,5 @@
 body{
-  background-image: url("Bank Site/1748339345788.jpg");
+  background-image: url("1748339345788.jpg");
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
@@ -11,7 +11,7 @@ body{
 align-items: center;
 justify-content: center;
 height: 60vh;
-background-color: rgb(253, 252, 253, 0.5);
+background-color: rgb(253, 253, 253, 0.5);
 }
 
 #amount{
