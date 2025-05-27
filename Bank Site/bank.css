@@ -1,0 +1,49 @@
+body{
+  background-image: url("/1748339345788.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#container{
+  display: flex;
+  flex-direction: column;
+align-items: center;
+justify-content: center;
+height: 60vh;
+background-color: rgb(253, 252, 253, 0.5);
+}
+
+#amount{
+  display: flex;
+  
+}
+#input{
+  height: 5vh;
+  width: 50px;
+}
+#button{
+  display: flex;
+  flex-direction: row;
+}
+#withdraw{
+  padding: 10px 57px;
+  border-top-left-radius: 50px;
+border : 0;
+border-right: 1px solid blue;
+}
+#deposit{
+  padding: 10px 57px;
+border-top-right-radius: 50px;
+border : 0;
+}
+#close{
+  padding: 10px 150px;
+border-bottom-right-radius: 50px;
+border-bottom-left-radius: 50px;
+border : 0;
+}
+img{
+  display: flex;
+  justify-content: top;
+}
