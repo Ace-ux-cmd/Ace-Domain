@@ -21,6 +21,7 @@ background-color: rgb(253, 253, 253, 0.5);
 #input{
   height: 5vh;
   width: 50px;
+  text-align: center;
 }
 #button{
   display: flex;
